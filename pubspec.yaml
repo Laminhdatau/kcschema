@@ -1,0 +1,53 @@
+name: kyaschema
+description: "KYASCHEMA - Schematic Management & Viewer for Phone Technicians by KYACODETECH SOLUTION"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^3.0.0
+  riverpod_annotation: ^3.0.0
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Database
+  drift: ^2.30.0
+  drift_flutter: ^0.2.8
+  sqlite3_flutter_libs: ^0.5.28
+
+  # File & Path
+  path_provider: ^2.1.5
+  path: ^1.9.1
+  file_picker: ^8.1.7
+  url_launcher: ^6.3.1
+
+  # PDF Viewer
+  pdfrx: ^1.0.100
+
+  # Backup/Restore
+  archive: ^4.0.4
+
+  # UI
+  multi_split_view: ^3.6.1
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  drift_dev: ^2.30.0
+  build_runner: ^2.10.4
+  riverpod_generator: ^3.0.0
+
+flutter:
+  uses-material-design: true
