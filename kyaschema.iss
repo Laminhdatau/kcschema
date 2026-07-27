@@ -8,13 +8,13 @@
 #define MyAppVersion "1.0.0"
 #define MyAppPublisher "KYACODETECH SOLUTION"
 #define MyAppURL "https://kyacodetech.com"
-#define MyAppExeName "kcschema.exe"
+#define MyAppExeName "kyaschema.exe"
 #define MyAppIcon "assets\icon\app_icon.ico"
 #define MyBuildDir "build\windows\x64\runner\Release"
 
 [Setup]
 ; Basic Setup Details
-AppId={{D837714D-4D0C-49C1-BCBB-1C760C75C546}
+AppId={{D837714D-4D0C-49C1-BCBB-1C760C75C546}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} v{#MyAppVersion}
@@ -32,7 +32,6 @@ DisableProgramGroupPage=yes
 SetupIconFile={#MyAppIcon}
 UninstallDisplayIcon={app}\{#MyAppExeName}
 WizardStyle=modern
-WizardSmallImageFile={#MyAppIcon}
 
 ; Compression & Output Settings
 Compression=lzma2/ultra64
